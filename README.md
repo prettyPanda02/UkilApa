@@ -207,3 +207,60 @@ The proposed stack may require:
 
 Clone the repository:
 
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
+Install dependencies and configure environment variables according to the individual service instructions once the project structure is established.
+
+**Configuration and execution:** Detailed commands, environment-variable requirements, database setup, API documentation, and testing instructions will be added after the initial application structure is implemented.
+
+Never commit API keys, database passwords, authentication secrets, or real user records to the repository.
+
+## Project Objectives
+
+The proposed MVP will be evaluated against measurable targets:
+
+- Test AI responses against at least 30 prepared questions from supported legal topics, targeting at least 80% with a relevant approved source or a safe fallback/escalation response.
+- Generate a structured draft case summary in at least 9 out of 10 test cases.
+- Successfully generate a unique report ID for at least 95% of valid end-to-end report submissions in the test environment.
+- Complete at least 95% of standard non-AI requests within 3 seconds under a test load of 50 concurrent simulated users.
+- Conduct usability testing with at least five test users and document fixes for critical usability and privacy issues before the final demonstration.
+
+These are prototype evaluation targets, not guarantees of legal accuracy or production-level performance.
+
+## Future Enhancements
+
+Potential improvements beyond the initial MVP include:
+
+- Expanded Bangla-language support and voice guidance.
+- Improved accessibility for users with limited literacy.
+- Carefully evaluated low-identification access options.
+- Appointment scheduling and secure video consultations.
+- Expanded and regularly reviewed legal knowledge resources.
+- Verified referral partnerships with NGOs, women's organizations, legal aid institutions, and public agencies.
+- Additional document-preparation and case-management capabilities.
+
+## Academic Information
+
+**Project:** UkilApa — A Women-Centric Digital Legal Aid & Support Platform for Bangladesh  
+**Course:** CSE327 — Software Engineering  
+**Section:** 3  
+**Group:** 7  
+**Institution:** North South University, Bangladesh
+
+### Team Members
+
+- Sudipta Karmaker
+- Tahsina Mamun Niha
+- Raisa Jarin Islam
+- Mekdad Hossain Abir
+
+### Disclaimer
+
+UkilApa is an academic software-engineering project. It is intended to support access to preliminary legal information and organize pathways toward professional assistance. It does not provide a substitute for advice from a qualified lawyer, verify allegations of violence, or guarantee emergency intervention. Real-world deployment would require legal review, robust privacy and safeguarding measures, verified referral procedures, and appropriate institutional partnerships.
+
+---
+
+**UkilApa — A safer, simpler first step toward legal support.**
